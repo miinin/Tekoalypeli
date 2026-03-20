@@ -1,0 +1,12 @@
+kind: "framework"
+version: "v1beta1"
+
+buildConfig:
+  # Kertoo Firebaselle, että käytetään Viteä
+  command: "npm run build"
+  
+runConfig:
+  # Käytetään standardiporttia
+  concurrency: 80
+  cpu: 1
+  memoryMiB: 512
